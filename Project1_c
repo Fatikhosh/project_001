@@ -1,0 +1,11 @@
+#include <studio.h>
+#pragma warning(disable4996)
+
+Int main()
+{
+Int m, n, k;
+Scanf("%d%d%d", &m, &n, &k);
+Printf("%d", m*n*k);
+Getchar();
+Return 0;
+}
