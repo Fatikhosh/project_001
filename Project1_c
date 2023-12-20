@@ -1,11 +1,8 @@
-#include <studio.h>
-#pragma warning(disable4996)
-
-Int main()
+#include <stdio.h>
+int main()
 {
-Int m, n, k;
-Scanf("%d%d%d", &m, &n, &k);
-Printf("%d", m*n*k);
-Getchar();
-Return 0;
+int m, n, k;
+scanf("%d %d %d", &m, &n, &k);
+printf("%d", m*n*k);
+return 0;
 }
